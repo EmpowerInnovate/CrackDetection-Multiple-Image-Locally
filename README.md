@@ -7,4 +7,4 @@ Now you can simply run the code with this command
 ```
 python app.py
 ```
-Now go through this [link](ocalhost:5050)
+Now go through this [link](localhost:5050)

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title></title>
+ <meta charset="utf-8" />
+</head>
+<body> 
+<div class="bd-example" align="middle">
+
+<table style="border: 1px solid black;">
+    <tr>        
+        {% for inputUrl in inputpaths %}
+        <td>{{ inputUrl|e }}</td>
+        <td><img src="{{ inputUrl|e }}" align="middle" height="240px"/></td>        
+        {% endfor %}        
+    </tr>
+    <tr>
+        {% for outputUrl in outputPaths %}
+        <td>{{ outputUrl|e }}</td>
+        <td><img src="{{ outputUrl|e }}" align="middle" height="240px"/></td>
+        {% endfor %}
+    </tr>
+</table>
+
+
+</div>
+</body>
+</html>
